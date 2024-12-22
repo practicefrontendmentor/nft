@@ -1,0 +1,23 @@
+:root {
+  /* colours */
+  --soft-blue: hsl(215deg 51% 70%);
+  --cyan: hsl(178deg 100% 50%);
+
+  --very-dark-blue-main-bg: hsl(217deg 54% 11%);
+  --very-dark-blue-card-bg: hsl(216deg 50% 16%);
+  --very-dark-blue-line: hsl(215deg 32% 27%);
+  --white: hsl(0deg 0% 100%);
+
+  /* typography */
+  font-family: Outfit, sans-serif;
+
+  /* spacing */
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-3: 8px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+
+  --border-radius-outer: 15px;
+  --: 8px;
+}

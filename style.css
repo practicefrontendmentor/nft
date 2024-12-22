@@ -1,0 +1,81 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("variables.css");
+@import url("compositions.css");
+@import url("utilities.css");
+
+body {
+  background-color: var(--very-dark-blue-main-bg);
+  color: var(--white);
+}
+
+.nft-card {
+  max-inline-size: 350px;
+  background: var(--very-dark-blue-card-bg);
+  border-radius: var(--border-radius-outer);
+  padding: var(--spacing-5);
+
+  & .nft-card__img {
+    border-radius: var(--border-radius-inner);
+    margin-block-end: var(--spacing-5);
+  }
+
+  & .nft-card__h1 {
+    font-weight: 600;
+    font-size: calc((22 / 16) * 1rem);
+    margin-block-end: var(--spacing-4);
+  }
+  & .nft-card__h1:active {
+    color: var(--soft-blue);
+  }
+
+  & .nft-card__p {
+    color: var(--soft-blue);
+    font-weight: 300;
+    font-size: calc((18 / 16) * 1rem);
+    margin-block-end: var(--spacing-5);
+  }
+
+  & .nft-card__purchase-info {
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: var(--spacing-5);
+
+    & span {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      & svg {
+        display: inline-block;
+        margin-inline-end: 6px;
+      }
+
+      & svg + * {
+        color: var(--cyan);
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+  }
+
+  & .nft-card__author-info {
+    margin-block-start: var(--spacing-4);
+    color: var(--soft-blue);
+    font-size: calc((16 / 16) * 1rem);
+    display: flex;
+    align-items: center;
+
+    & img {
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      border: 1px solid var(--white);
+      margin-inline-end: var(--spacing-4);
+    }
+
+    & .nft-card__author-info--author-name {
+      color: var(--cyan);
+    }
+  }
+}

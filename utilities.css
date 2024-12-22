@@ -1,0 +1,8 @@
+.place-children-center {
+  display: grid;
+  place-content: center;
+}
+
+.horizontal-line {
+  border-top: 1px solid var(--very-dark-blue-line);
+}
