@@ -62,9 +62,14 @@ body {
         margin-inline-end: 6px;
       }
 
-      & svg + * {
+      & .nft-card__purchase-info-price {
         color: var(--cyan);
         font-weight: 600;
+        font-size: 16px;
+      }
+      & .nft-card__purchase-info-time {
+        color: var(--soft-blue);
+        font-weight: 400;
         font-size: 16px;
       }
     }
