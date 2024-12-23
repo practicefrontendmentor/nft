@@ -2,6 +2,7 @@
   /* colours */
   --soft-blue: hsl(215deg 51% 70%);
   --cyan: hsl(178deg 100% 50%);
+  --cyan-hover: hsla(178deg 100% 50% / 0.5);
 
   --very-dark-blue-main-bg: hsl(217deg 54% 11%);
   --very-dark-blue-card-bg: hsl(216deg 50% 16%);
@@ -19,5 +20,5 @@
   --spacing-5: 24px;
 
   --border-radius-outer: 15px;
-  --: 8px;
+  --border-radius-inner: 8px;
 }
